@@ -179,49 +179,9 @@ body {
 
 /*-------------------------deals of the day section------------------*/
 
-
-/* .deals_of_the_day {
-    display: flex;
-    flex-direction: row;
-    width: 70%;
-    height: 362px;
-    background-color: white;
-    justify-content: center;
-    align-items: center;
-}
-
-.deals_of_the_day_titleandproduct {
-    display: flex;
-    flex-direction: column;
-}
-
-.deals_of_the_day_title {
-    display: flex;
-    flex-direction: row;
-}
-
-.view_all_btn {
-    color: white;
-    padding: 8px;
-    width: 9rem;
-    background-color: #2874f0;
-    border: none;
-    cursor: pointer;
-}
-
-.products {
-    display: flex;
-    flex-direction: column;
-}
-
-.ads {
-    display: flex;
-} */
-
 .deals_of_the_day {
     display: flex;
     margin-top: 1rem;
-    flex-basis: 60%;
     justify-content: center;
     align-items: center;
     margin: 1%;
@@ -230,7 +190,8 @@ body {
 .grid_wrapper_deals_of_day {
     background-color: white;
     padding: 1rem;
-    grid-gap: 1em;
+    grid-column-gap: 2em;
+    grid-row-gap: 1em;
     display: grid;
     grid-template-columns: repeat(7, 1fr, 1fr, 1fr, 1fr, 1fr, 2fr);
     justify-items: center;
@@ -238,7 +199,6 @@ body {
 
 .title_timer_btn_wrapper {
     border-bottom: 3px solid #f1f3f6;
-    ;
     grid-template-columns: inherit;
     grid-column-gap: 2e;
     grid-column: 1/5;
@@ -401,7 +361,6 @@ a {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
-    width: 80%;
 }
 
 h6 {
