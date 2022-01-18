@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Flipkart</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--bootstrap css cdn-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--custom css file-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--bootstrap js cdn-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-------------------------header navigation section------------------>
+    <header>
+        <div class="container_navigation" style="flex-basis: 100%;">
+            <div style="display: flex; flex-basis: 60%;justify-content: flex-end;">
+                <div class="flipkart_logo">
+                    <img src="asset/flipkart-plus_8d85f4.png" width="75" alt="Flipkart">
+                    <a href="#" class="explore_plus_link">
+                        <div class="explore_plus">
+                            <p class="explore_style"><i>Explore <b>Plus</b></i></p>
+                            <img src="asset/plus_symbol.png" width="10" height="10" alt="plus_symbol">
+                        </div>
+                    </a>
+                </div>
+                <div class="search_bar">
+                    <input type="search" placeholder="Search for products, brands and more">
+                    <button class="fa fa-search search_icon_styling"></button>
+                </div>
+            </div>
+
+            <div style="display: flex; flex-basis: 40%;">
+                <div class="login_more_cart">
+                    <button href="#" class="login_button">Login</button>
+                    <select name="more" id="more">
+                    <option value="Value 1">More</option>
+                    <option value="Value 2">Value 2</option>
+                    <option value="Value 3">Value 3</option>
+                    <option value="Value 4">Value 4</option>
+                </select>
+                    <div class="cart">
+                        <i class="fa fa-shopping-cart cart_custom_styling"></i>
+                        <a href="#" class="cart_text_styling">Cart</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-------------------------End of header navigation section------------------>
+
+
+    <main>
+        <!-------------------------main category section------------------>
+        <section class="category">
+            <div class="category_flexbasis_60">
+                <div class="category_container">
+                    <img src="asset/top_offers.png" height="65" width="65" alt="top offers">
+                    <a class="category_description" href="#">Top Offers</a>
+                </div>
+                <div class="category_container">
+                    <img src="asset/grocery.png" height="65" width="65" alt="top offers">
+                    <a class="category_description" href="#">Grocery</a>
+                </div>
+                <div class="category_container">
+                    <img src="asset/mobiles.png" height="65" width="65" alt="top offers">
+                    <a class="category_description" href="#">Mobiles</a>
+                </div>
+                <div class="category_container">
+                    <img src="asset/fashion.png" height="65" width="65" alt="top offers">
+                    <div class="dropdown">
+                        <a class="category_description btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Fashion
+                    </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Men's Top Wear</a></li>
+                            <li><a class="dropdown-item" href="#">Women's Top Wear</a></li>
+                            <li><a class="dropdown-item" href="#">Women's Ethnic Wear</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="category_container">
+                    <img src="asset/electronics.png" height="65" width="65" alt="top offers">
+                    <div class="dropdown">
+                        <a class="category_description btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Electronics
+                    </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Audio</a></li>
+                            <li><a class="dropdown-item" href="#">Electronics GST store</a></li>
+                            <li><a class="dropdown-item" href="#">Camera & Accessories</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="category_container">
+                    <img src="asset/home.jpeg" height="65" width="65" alt="top offers">
+                    <div class="dropdown">
+                        <a class="category_description btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Home
+                    </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Home Furnishings</a></li>
+                            <li><a class="dropdown-item" href="#">Living Room</a></li>
+                            <li><a class="dropdown-item" href="#">Kitchen & Dining</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="category_container">
+                    <img src="asset/appliances.png" height="65" width="65" alt="top offers">
+                    <div class="dropdown">
+                        <a class="category_description btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Appliances
+                    </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Washing Machines</a></li>
+                            <li><a class="dropdown-item" href="#">Air Conditioners</a></li>
+                            <li><a class="dropdown-item" href="#">Home Appliances</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+                <div class="category_container">
+                    <img src="asset/flights.png" height="65" width="65" alt="top offers">
+                    <a class="category_description" href="#">Travel</a>
+                </div>
+                <div class="category_container">
+                    <img src="asset/beauty_toys_more.png" height="65" width="65" alt="top offers">
+                    <div class="dropdown">
+                        <a class="category_description btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                        Beauty,Toys&More
+                    </a>
+
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Men's Grooming</a></li>
+                            <li><a class="dropdown-item" href="#">Women's Grooming</a></li>
+                            <li><a class="dropdown-item" href="#">Toys & School Supplies</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-------------------------End of main category section------------------>
+        <!-------------------------deals of the day section------------------>
+        <section class="deals_of_the_day">
+            <div class="grid_wrapper_deals_of_day">
+                <div class="title_timer_btn_wrapper">
+                    <div class="title">
+                        <h5>Deals of the Day</h5>
+                    </div>
+                    <div class="timer"><span><img width="25" height="25" src="asset/timer_clock.svg" alt="timer"></img></span><span class="timer_styling"> 22: 07: 36</span><span class="timer_styling"> Left</span></div>
+                    <div class=" view_all "><button class="view_all_btn">View All</button></div>
+                </div>
+                <div class="product1_and_description ">
+                    <a href="#">
+                        <img class="product_img " height="150" src="asset/img_ad1.jpeg " alt="img_ad1 ">
+                        <p class="brands ">Sparx, Bruton & more</p>
+                        <p class="discount ">From ₹199+Extra10%off</p>
+                        <p class="eye_catching_phrases ">Casual Shoes For Men's</p>
+                    </a>
+                </div>
+                <div class="product2_and_description ">
+                    <a href="#">
+                        <img class="product_img " height="150" src="asset/img_ad2.jpeg " alt="img_ad2 ">
+                        <p class="brands ">Curtains, Pillows & more</p>
+                        <p class="discount ">From ₹99+Extra10%off</p>
+                        <p class="eye_catching_phrases ">Casual Shoes For Men's</p>
+                    </a>
+                </div>
+                <div class="product3_and_description ">
+                    <a href="#">
+                        <img class="product_img " height="150" src="asset/img_ad5.jpeg " alt="img_ad3 ">
+                        <p class="brands ">Tyre's Two&Four Wheeler</p>
+                        <p class="discount ">From ₹199+Extra10%off</p>
+                        <p class="eye_catching_phrases ">Best Deal Price..!!</p>
+                    </a>
+                </div>
+                <div class="product4_and_description ">
+                    <a href="#">
+                        <img class="product_img " height="150" src="asset/img_ad4.jpeg " alt="img_ad4 ">
+                        <p class="brands ">Sunglasses</p>
+                        <p class="discount ">From ₹199+Extra10%off</p>
+                        <p class="eye_catching_phrases ">Best deal prices!</p>
+                    </a>
+                </div>
+                <div class="box_and_arrow">
+                    <a href="#">
+                        <svg width="14.6" height="27" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="background_box_for_arrow">
+                        <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff" class="arrow">
+                        </path>
+                    </svg>
+                    </a>
+                </div>
+
+                <div class="ads ">
+                    <a href="#">
+                        <img class="advertisement_img_style " src="asset/ad_image.jpeg " alt="advertisement ">
+                    </a>
+                </div>
+            </div>
+
+        </section>
+
+        <!-------------------------end of deals of the day section------------------>
+
+        <!-------------------------particular category section------------------>
+        <section class="deals_of_the_day ">
+            <div class="grid_wrapper_particular_category ">
+                <div class="title_timer_btn_wrapper">
+                    <div class="title ">
+                        <h5>Home Decor</h5>
+                        <h6>Starting from INR 1600/-</h6>
+                    </div>
+
+                    <div class="view_all"><button class="view_all_btn">View All</button></div>
+                </div>
+
+                <div class="product1_and_description ">
+                    <a href="#">
+                        <img class="product_img " height="150" src="asset/section_2_ad1.jpeg " alt="img_ad1 ">
+                        <p class="brands ">Shoe Racks</p>
+                        <p class="discount ">From From ₹249</p>
+                        <p class="eye_catching_phrases ">Trendy Collections Made In India</p>
+                    </a>
+                </div>
+                <div class="product2_and_description ">
+                    <a href="#">
+                        <img class="product_img " height="150" src="asset/section2_ad2.jpeg " alt="img_ad2 ">
+                        <p class="brands ">Hammock & Swings</p>
+                        <p class="discount ">From ₹510</p>
+                        <p class="eye_catching_phrases ">New Collection</p>
+                    </a>
+                </div>
+                <div class="product3_and_description ">
+                    <a href="#">
+                        <img class="product_img " height="150" src="asset/section2_ad3.jpeg " alt="img_ad3 ">
+                        <p class="brands ">Kitchen Trolley</p>
+                        <p class="discount ">From ₹219</p>
+                        <p class="eye_catching_phrases ">Ebee, WudCraft & more</p>
+                    </a>
+                </div>
+                <div class="product4_and_description ">
+                    <a href="#">
+                        <img class="product_img " height="150" src="asset/section2_ad4.jpeg " alt="img_ad4 ">
+                        <p class="brands ">Office Chairs</p>
+                        <p class="discount ">From ₹3,290</p>
+                        <p class="eye_catching_phrases ">Go Local Furniture</p>
+                    </a>
+                </div>
+                <div class="product5_and_description ">
+                    <a href="#">
+                        <img class="product_img " height="150" src="asset/section2_ad5.jpeg " alt="img_ad4 ">
+                        <p class="brands ">Office swing</p>
+                        <p class="discount ">From ₹4,000</p>
+                        <p class="eye_catching_phrases ">The comfiest and the cosiest</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-------------------------end of particular category section------------------>
+    </main>
+</body>
+
+</html>
